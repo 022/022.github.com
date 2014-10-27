@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>大城小事 便民服务</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="http://libs.baidu.com/jquery/1.9.0/jquery.js"></script>
+	<style type="text/css">
+
+		body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{padding:0;margin:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,cite,code,dfn,em,strong,th,var{font-weight:normal;font-style:normal;}ol,ul{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-weight:normal;font-size:100%;}q:before,q:after{content:'';}abbr,acronym{border:0;}a:link,a:visited{color:#333;text-decoration:none;}a:hover,a:active{color:#000;text-decoration:none;}.fl{float:left;display:inline;}.fr{float:right;display:inline;}img{display:block;}.clearfix:before,.clearfix:after{content:"";display:table}.clearfix:after{clear:both}.clearfix{zoom:1}
+		body{ font-family: "Lucida Grande", "Microsoft JhengHei", "Microsoft YaHei"; background: #DDD }
+
+		#container{ width: 320px; float: right; background: #FFF }
+
+		#topBox{ width: 320px; height: 200px; background: #DA4453 url('bg.jpg'); position: relative; }
+
+		.arrow-down {
+			width:0; height:0;
+			border-left:5px solid transparent; border-right:5px solid transparent; border-bottom:5px solid #FFF;
+			position: absolute; left: 155px; bottom: 0px
+		}
+
+		.box{ position: relative; width: 314px; height: 60px; margin: 3px 3px; background: #EEE; color: #FFF }
+		.box .big{ position: absolute; top:0; left:0; width: 94px; height: 60px; }
+		.box .txt{ position: absolute; top:0; left:106px; width: 200px; height: 60px; font-size: 15px; color: #555; text-align: right;  }
+		.box .txt .tel{ font-size: 28px; font-family: Arial; line-height: 30px; padding: 3px 0; font-weight: bold; }
+
+		.box .big .what{ display: block; font-size: 20px; margin: 0px; line-height: 1.2; margin: 5px 0 0 6px; }
+
+		.big{ background: #3BAFDA; color:#FFF; }
+		.big{ background: #3BAFDA; color:#FFF; }
+
+		.next .big{ background: #27AE60; }
+
+		.txt span{ color:red;}
+
+	</style>
+</head>
+<body>
+	<div id="container">
+
+		<div id="topBox">
+			<div class="arrow-down"></div>
+		</div>
+
+		<div class="box">
+			<div class="big">
+				<span class="what">天越物业</span>
+			</div>
+			<div class="txt">
+				<p class="tel">022-27258889</p>
+				<p class="mes">天越园4号楼一层</p>
+			</div>
+		</div>
+
+		<div class="box">
+			<div class="big">
+				<span class="what">天霖物业</span>
+			</div>
+			<div class="txt">
+				<p class="tel">022-27255027</p>
+				<p class="mes">天霖园6号楼一层</p>
+			</div>
+		</div>
+
+		<div class="box">
+			<div class="big">
+				<span class="what">天康物业</span>
+			</div>
+			<div class="txt">
+				<p class="tel">022-27285715</p>
+				<p class="mes">天康园5号楼一层</p>
+			</div>
+		</div>
+
+		<div class="box">
+			<div class="big">
+				<span class="what">富力会所</span>
+			</div>
+			<div class="txt">
+				<p class="tel">022-27258881</p>
+				<p class="mes">天越园靠近鼓楼西街一侧</p>
+			</div>
+		</div>
+
+		<div class="box">
+			<div class="big">
+				<span class="what">居委会</span>
+			</div>
+			<div class="txt">
+				<p class="tel">022-00000000</p>
+				<p class="mes">天霖园11号楼地下室</p>
+			</div>
+		</div>
+
+		<div class="box next">
+			<div class="big">
+				<span class="what">供热</span>
+			</div>
+			<div class="txt">
+				<p class="tel">022-27423717</p>
+				<p class="mes">万德庄大街145号</p>
+			</div>
+		</div>
+
+		<div class="box next">
+			<div class="big">
+				<span class="what">供电</span>
+			</div>
+			<div class="txt">
+				<p class="tel">022-24407526</p>
+				<p class="mes">民用电发展公司</p>
+			</div>
+		</div>
+
+		<div class="box next">
+			<div class="big">
+				<span class="what">供水</span>
+			</div>
+			<div class="txt">
+				<p class="tel">022-23149999</p>
+				<p class="mes">24小时供水热线</p>
+			</div>
+		</div>
+
+		<div class="box next">
+			<div class="big">
+				<span class="what">燃气</span>
+			</div>
+			<div class="txt">
+				<p class="tel">022-23380821</p>
+				<p class="mes">天然气公司</p>
+			</div>
+		</div>
+
+		
+
+		<!--宽带-->
+
+		<div class="box">
+			<div class="big">
+				<span class="what">网通宽带</span>
+			</div>
+			<div class="txt">
+				<p class="tel">022-27260843</p>
+				<p class="mes">南开区南马路1151号</p>
+			</div>
+		</div>
+
+		<div class="box">
+			<div class="big">
+				<span class="what">广电宽带</span>
+			</div>
+			<div class="txt">
+				<p class="tel">4006515006</p>
+				<p class="mes">天霖园9号楼102室</p>
+			</div>
+		</div>
+
+		<div class="box">
+			<div class="big">
+				<span class="what">长城宽带</span>
+			</div>
+			<div class="txt">
+				<p class="tel">4006055885</p>
+				<p class="mes"></p>
+			</div>
+		</div>
+
+		<div class="box next">
+			<div class="big">
+				<span class="what">顺丰快递</span>
+			</div>
+			<div class="txt">
+				<p class="tel">15022083572</p>
+				<p class="mes">张师傅个人手机 急事再打</p>
+			</div>
+		</div>
+
+		<div class="box next">
+			<div class="big">
+				<span class="what">安普药房</span>
+			</div>
+			<div class="txt">
+				<p class="tel">022-27352705</p>
+				<p class="mes">天霖园18号楼底商 24小时</p>
+			</div>
+		</div>
+
+		<div class="box next">
+			<div class="big">
+				<span class="what">永旺便利</span>
+			</div>
+			<div class="txt">
+				<p class="tel">15522231832</p>
+				<p class="mes">天霖园12号楼(快递代收)</p>
+			</div>
+		</div>
+
+		<div class="box next">
+			<div class="big">
+				<span class="what">废品回收</span>
+			</div>
+			<div class="txt">
+				<p class="tel">13132063170</p>
+				<p class="mes"><span>*</span> 独居长者或女性谨慎拨打</p>
+			</div>
+		</div>
+
+		<div class="box">
+			<div class="big">
+				<span class="what">百饺园</span>
+			</div>
+			<div class="txt">
+				<p class="tel">022-27337817</p>
+				<p class="mes">城厢西路天街商业街25号</p>
+			</div>
+		</div>
+
+		<div class="box">
+			<div class="big">
+				<span class="what">小老饭庄</span>
+			</div>
+			<div class="txt">
+				<p class="tel">022-27586640</p>
+				<p class="mes">西马路与鼓楼西街交口</p>
+			</div>
+		</div>
+
+		<div class="box">
+			<div class="big">
+				<span class="what">羽毛球馆</span>
+			</div>
+			<div class="txt">
+				<p class="tel">022-81289999</p>
+				<p class="mes">崇化中学内 北马路339号</p>
+			</div>
+		</div>
+
+		<div class="box next">
+			<div class="big">
+				<span class="what">工商银行</span>
+			</div>
+			<div class="txt">
+				<p class="tel">022-27344932</p>
+				<p class="mes">东北角支行(鼓楼西街)</p>
+			</div>
+		</div>
+
+		<div class="box next">
+			<div class="big">
+				<span class="what">建设银行</span>
+			</div>
+			<div class="txt">
+				<p class="tel">022-27331301</p>
+				<p class="mes">富力城分理处(鼓楼西街)</p>
+			</div>
+		</div>
+
+		<div class="box next">
+			<div class="big">
+				<span class="what">农业银行</span>
+			</div>
+			<div class="txt">
+				<p class="tel">022-87722060</p>
+				<p class="mes"></p>
+			</div>
+		</div>
+
+		<div class="box next">
+			<div class="big">
+				<span class="what">光大银行</span>
+			</div>
+			<div class="txt">
+				<p class="tel">022-27283018</p>
+				<p class="mes">南城街与城厢西路交口</p>
+			</div>
+		</div>
+
+		<div class="box next">
+			<div class="big">
+				<span class="what">中国银行</span>
+			</div>
+			<div class="txt">
+				<p class="tel">022-27358930</p>
+				<p class="mes">鼓楼西街708号</p>
+			</div>
+		</div>
+
+		<div class="box next">
+			<div class="big">
+				<span class="what">招商银行</span>
+			</div>
+			<div class="txt">
+				<p class="tel">022-27336193</p>
+				<p class="mes">鼓楼西街515号</p>
+			</div>
+		</div>
+
+		<div class="box next">
+			<div class="big">
+				<span class="what">民生银行</span>
+			</div>
+			<div class="txt">
+				<p class="tel">022-58896358</p>
+				<p class="mes">鼓楼西街735号</p>
+			</div>
+		</div>
+
+	</div>
+</body>
+</html>
